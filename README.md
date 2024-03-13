@@ -7,14 +7,21 @@ null pointer.
 
 This program reads the input from the attached input.txt file in the following format:
 3
+
 6
+
 abcdef
+
 4
+
 1234
+
 2
+
 cm
 
 When the chars “abcdef” are read, your program will construct a linked list as follows:
+
 LinkedList:
   head -> a -> b -> c -> d -> e -> f
 
