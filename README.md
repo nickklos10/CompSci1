@@ -6,6 +6,7 @@ character is needed since the next field of the node storing the last letter of 
 null pointer.
 
 This program reads the input from the attached input.txt file in the following format:
+
 3
 
 6
