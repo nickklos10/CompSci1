@@ -1,28 +1,6 @@
 # Storing strings in a linked list
 
-An alternate method of storing a string is to store each letter of the string in a single node of a linked list,
-with the first node of the list storing the first letter of the string. Using this method of storage, no null
-character is needed since the next field of the node storing the last letter of the string would simply be a
-null pointer.
+This C program demonstrates the creation, manipulation, and deletion of a linked list to store and process characters, forming strings. The program reads a series of characters from an input file, inserts them into a linked list, converts the linked list back to a string, and then cleans up the memory used by the linked list.
+The main function reads character sequences from an input file, uses these characters to build a linked list, converts the list back to a string, and then deallocates the list. This process is repeated for a specified number of inputs.
 
-This program reads the input from the attached input.txt file in the following format:
-
-3
-
-6
-
-abcdef
-
-4
-
-1234
-
-2
-
-cm
-
-When the chars “abcdef” are read, your program will construct a linked list as follows:
-
-LinkedList:
-  head -> a -> b -> c -> d -> e -> f
 
