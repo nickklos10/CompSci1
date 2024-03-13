@@ -1,4 +1,4 @@
-# CompSci1
+# Storing strings in a linked list
 
 An alternate method of storing a string is to store each letter of the string in a single node of a linked list,
 with the first node of the list storing the first letter of the string. Using this method of storage, no null
